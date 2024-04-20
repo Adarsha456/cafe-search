@@ -24,7 +24,7 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       display: flex;
       flex-direction: column;
-      align-items: center; /* Center align items horizontally */
+      align-items: center; 
     }
 
     table {
@@ -97,7 +97,7 @@
       })
       .catch(error => console.error('Error fetching data:', error));
 
-    // Render the cafe list in the table
+    // the cafe list in the table
     function renderCafeList(cafes) {
       const tableBody = document.querySelector('#cafeTable tbody');
       tableBody.innerHTML = '';
